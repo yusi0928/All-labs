@@ -1,0 +1,57 @@
+#Function naming
+
+Function names should be lowercase, with words separated by underscores as necessary to improve readability. mixedCase is allowed only in contexts where that's already the prevailing style (e.g. threading.py), to retain backwards compatibility.
+e.g. def area_house()
+    
+------------------------------------------------------------  
+    
+#Variable naming
+
+Variable names follow the same convention as function names.mixedCase is allowed only in contexts where that's already the prevailing style (e.g. threading.py), to retain backwards compatibility.
+e.g. big_house = XX
+     Capitalized_Words_With_Underscores (ugly!)
+
+                    This website helps find real-world usage variable names
+                    https://unbug.github.io/codelf/
+    
+------------------------------------------------------------  
+    
+
+#String Quotes
+
+In Python, single-quoted strings and double-quoted strings are the same. This PEP does not make a recommendation for this. Pick a rule and stick to it. When a string contains single or double quote characters, however, use the other one to avoid backslashes in the string. It improves readability.
+
+For triple-quoted strings, always use double quote characters to be consistent with the docstring convention in PEP 257.
+
+>>>Personally, I preper single-quoted strings '' For everything, the shorter the better. Be careful with the consistency.
+ 
+------------------------------------------------------------  
+     
+
+#Names to Avoid
+
+Never use the characters 'l' (lowercase letter el), 'O' (uppercase letter oh), or 'I' (uppercase letter eye) as single character variable names.In some fonts, these characters are indistinguishable from the numerals one and zero. When tempted to use 'l', use 'L' instead.
+
+>>>That's true, l 0 I are confusing. To avoid these letter in coding.
+------------------------------------------------------------  
+    
+
+
+#Comments
+
+Comments that contradict the code are worse than no comments. Always make a priority of keeping the comments up-to-date when the code changes!
+
+Comments should be complete sentences. The first word should be capitalized, unless it is an identifier that begins with a lower case letter (never alter the case of identifiers!).
+
+Block comments generally consist of one or more paragraphs built out of complete sentences, with each sentence ending in a period.
+
+You should use two spaces after a sentence-ending period in multi- sentence comments, except after the final sentence.
+
+------------------------------------------------------------  
+    
+
+
+#Inline Comments
+
+An inline comment is a comment on the same line as a statement. Inline comments should be separated by at least two spaces from the statement. They should start with a # and a single space.
+>>>e.g.    x = x + 1                 # Compensate for border
